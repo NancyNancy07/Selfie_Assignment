@@ -5,8 +5,6 @@ noStroke();
 
 // back hair
 fill(0, 0, 0);
-// ellipse(x, y - 5, 150, 190);
-
 rect(x - 70, y - 90, 140, 200, 100);
 
 // face
@@ -16,11 +14,11 @@ rect(x - 45, y - 80, 90, 120, 100);
 
 // eyes
 fill(255, 255, 255);
+// tried some differ eyes
 // arc(x - 20, y - 30, 20, 10, 3, 0, CHORD);
 // arc(x - 20, y - 30, 20, 10, 0, 1, CHORD);
 // ellipse(x - 20, y - 30, 25, 15);
 // ellipse(x + 20, y - 30, 25, 15);
-
 beginShape();
 vertex(x - 30, y - 20);
 bezierVertex(x - 30, y - 50, x - 10, y - 50, x - 10, y - 20);
@@ -88,14 +86,13 @@ pop();
 push();
 fill(236, 211, 197);
 rect(x - 20, y + 30, 40, 20);
+
 // dress
 fill(230, 230, 250);
 rect(x - 60, y + 50, 120, 100, 20, 20, 0, 0);
 pop();
 fill(236, 211, 197);
 arc(x, y + 50, 40, 30, 0, PI, CHORD);
-
 stroke(230, 245, 250);
-
 line(x - 40, y + 80, x - 40, y + 150);
 line(x + 40, y + 80, x + 40, y + 150);
